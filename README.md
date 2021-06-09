@@ -264,7 +264,7 @@ from api.view.base import BaseHandler , CachedPlusHandler
 @handler_define
 class GetUserInfo(CachedPlusHandler):
 
-    #这个方法返回接口缓存时间带娃秒
+    #这个方法返回接口缓存时间单位秒
     def get_cache_expire(self):
         return 60 * 1
 
